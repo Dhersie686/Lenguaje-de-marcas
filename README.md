@@ -12,3 +12,6 @@ Ejercicios | Descripción
 [Ejercicio 2](tema1/cabecera.html)|Crea una página html que incluya seis niveles de cabecera seguidas de un pequeño párrafo de texto.
 [Ejercicio 3](tema1/formato.html)|Usa el texto mostrado y dale el formato siguiendo las indicaciones:
 [Ejercicio 4](tema1/Creapag.html)|Crea una página html que muestre el siguiente aspecto:
+[Ejercicio 5](tema1/distintcabezados.html)|Crea una página que contenga varios párrafos, con distinta alineación y con
+encabezados.
+
