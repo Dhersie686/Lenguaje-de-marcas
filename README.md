@@ -8,4 +8,4 @@ Ejercicios | Descripción
 ## TEMA 1 - HTML
 Ejercicios | Descripción
 -----------|------------
-[Ejercicio 1](tema0/pagina.html)|Página web sencilla con un encabezado h1 y un pequeño párrafo de texto de mi elección.      
+[Ejercicio 1](tema0/ejerci1.html)|Página web sencilla con un encabezado h1 y un pequeño párrafo de texto de mi elección.      
