@@ -13,4 +13,5 @@ Ejercicios | Descripción
 [Ejercicio 3](tema1/formato.html)|Usa el texto mostrado y dale el formato siguiendo las indicaciones:
 [Ejercicio 4](tema1/Creapag.html)|Crea una página html que muestre el siguiente aspecto:
 [Ejercicio 5](tema1/distintcabezados.html)|Crea una página que contenga varios párrafos, con distinta alineación y con encabezados.
+[Ejercicio 6](tema1/distintformatos.html)|Modifica la página anterior para incluir distintos formatos de texto.
 
