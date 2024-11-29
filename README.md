@@ -14,4 +14,5 @@ Ejercicios | Descripción
 [Ejercicio 4](tema1/Creapag.html)|Crea una página html que muestre el siguiente aspecto:
 [Ejercicio 5](tema1/distintcabezados.html)|Crea una página que contenga varios párrafos, con distinta alineación y con encabezados.
 [Ejercicio 6](tema1/distintformatos.html)|Modifica la página anterior para incluir distintos formatos de texto.
+[Ejercicio 7](tema1/fondcolor.html)|Cambia los atributos de la página para cambiar el fondo y color. Prueba con las distintas opciones
 
