@@ -22,5 +22,5 @@ Ejercicios | Descripción
 [Ejercicio 11](tema1/Listas.html)|Añade los siguientes ítems
 [Ejercicio 12](tema1/styles.html)|Crea cuatro párrafos y rellena el contenido con el texto "Lorem ipsum". Añade una cabecera a cada párrafo e incluye un identificador para cada etiqueta.
 [Ejercicio 13](tema1/borders.html)|Utiliza un tipo de borde diferente para cada párrafo.Usa un color distinto para el color del borde de cada cabecera.
-[Ejercicio 13](tema1/padding.html)|Usa los siguientes valores para el párrafo 1,2,3,4
+[Ejercicio 14](tema1/padding.html)|Usa los siguientes valores para el párrafo 1,2,3,4
 
