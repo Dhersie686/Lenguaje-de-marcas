@@ -20,3 +20,4 @@ Ejercicios | Descripción
 [Ejercicio 9](tema1/enlaces.html)|Crea un página html como la mostrada a continuación:
 [Ejercicio 10](tema1/listaañadida.html)|Write a HTML page with the follow two levels nested list 
 [Ejercicio 11](tema1/Listas.html)|Añade los siguientes ítems
+[Ejercicio 12](tema1/styles.html)|Crea cuatro párrafos y rellena el contenido con el texto "Lorem ipsum". Añade una cabecera a cada párrafo e incluye un identificador para cada etiqueta.
