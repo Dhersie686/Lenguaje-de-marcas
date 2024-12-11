@@ -17,4 +17,5 @@ Ejercicios | Descripción
 [Ejercicio 7](tema1/fondcolor.html)|Cambia los atributos de la página para cambiar el fondo y color. Prueba con las distintas opciones
 [Ejercicio 8](tema1/pagprincipal.html)|Haz el ejercicio número 6 de “uniwebsidad” del capítulo 4 (aparece al final del artículo):
 [Ejercicio 8(parte dos)](tema1/portafolio.html)|Haz el ejercicio número 6 de “uniwebsidad” del capítulo 4 (aparece al final del artículo):
+[Ejercicio 9(parte dos)](tema1/enlaces.html)|Crea un página html como la mostrada a continuación:
 
