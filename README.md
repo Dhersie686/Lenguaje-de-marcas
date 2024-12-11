@@ -15,4 +15,6 @@ Ejercicios | Descripción
 [Ejercicio 5](tema1/distintcabezados.html)|Crea una página que contenga varios párrafos, con distinta alineación y con encabezados.
 [Ejercicio 6](tema1/distintformatos.html)|Modifica la página anterior para incluir distintos formatos de texto.
 [Ejercicio 7](tema1/fondcolor.html)|Cambia los atributos de la página para cambiar el fondo y color. Prueba con las distintas opciones
+[Ejercicio 8](tema1/pagprincipal.html)|Haz el ejercicio número 6 de “uniwebsidad” del capítulo 4 (aparece al final del artículo):
+[Ejercicio 8(parte dos)](tema1/portafolio.html)|Haz el ejercicio número 6 de “uniwebsidad” del capítulo 4 (aparece al final del artículo):
 
