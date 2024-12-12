@@ -25,3 +25,4 @@ Ejercicios | Descripción
 [Ejercicio 14](tema1/padding.html)|Usa los siguientes valores para el párrafo 1,2,3,4
 [Ejercicio 15](tema1/Tablas.html)|Crea la tabla mostrada a continuación,Usa cabeceras y los atributos necesarios.
 [Ejercicio 16](tema1/horario.html)|Display your  timetable in the school. If you have the same subject 2 or 3 hours in a row then it should be combined in one cell. The break should be displayed in one row..
+[Ejercicio 17](tema1/tablasceldas.html)|Display the following table. Use heading cells where necessary and all attributes you need.
