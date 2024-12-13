@@ -33,7 +33,7 @@ Ejercicios | Descripción
 [Ejercicio 22](tema1/Favicon.html)|Crea un favicon e inclúyelo en una página web.
 [Ejercicio 23](tema1/iframe.html)|Crea una página que incluya una barra de menús: “html | css | javascript | Ajax”. A continuación se mostrará un iFrame en el que se visualizará el apartado correspondiente de la página “uniwebsidad” de cada uno de los enlaces del menú anterior
 [Ejercicio 24](tema1/formulario.html)|Display the following HTML form:
-
+[Ejercicio 25](tema1/nuevformu.html)|Append new controls to last exercise.
 
 
 
