@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú con iFrame</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: white;
+            color: red;
+        }
+
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            background-color: red;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu li {
+            display: inline;
+        }
+
+        .menu li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .menu li a:hover {
+            background-color: white;
+            color: red;
+        }
+
+        iframe {
+            width: 90%;
+            height: 600px;
+            border: 2px solid red;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menú con iFrame</h1>
+    <ul class="menu">
+        <li><a href="https://uniwebsidad.com/cursos/html" target="iframe_contenido">HTML</a></li>
+        <li><a href="https://uniwebsidad.com/cursos/css" target="iframe_contenido">CSS</a></li>
+        <li><a href="https://uniwebsidad.com/cursos/javascript" target="iframe_contenido">JavaScript</a></li>
+        <li><a href="https://uniwebsidad.com/cursos/ajax" target="iframe_contenido">Ajax</a></li>
+    </ul>
+
+    <iframe name="iframe_contenido" src="https://uniwebsidad.com/cursos/html"></iframe>
+</body>
+</html>
+
