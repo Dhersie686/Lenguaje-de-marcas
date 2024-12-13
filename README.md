@@ -32,7 +32,7 @@ Ejercicios | Descripción
 [Ejercicio 21](tema1/grupima.html)|Crea un grupo de imágenes en miniatura. Incluye un enlace a la imagen original en cada una de ellas.
 [Ejercicio 22](tema1/Favicon.html)|Crea un favicon e inclúyelo en una página web.
 [Ejercicio 23](tema1/iframe.html)|Crea una página que incluya una barra de menús: “html | css | javascript | Ajax”. A continuación se mostrará un iFrame en el que se visualizará el apartado correspondiente de la página “uniwebsidad” de cada uno de los enlaces del menú anterior
-[Ejercicio 24](tema1/.html)|
+[Ejercicio 24](tema1/formulario.html)|Display the following HTML form:
 
 
 
