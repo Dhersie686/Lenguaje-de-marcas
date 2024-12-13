@@ -35,6 +35,6 @@ Ejercicios | Descripción
 [Ejercicio 24](tema1/formulario.html)|Display the following HTML form:
 [Ejercicio 25](tema1/nuevformu.html)|Append new controls to last exercise.
 [Ejercicio 26](tema1/video.html)|Crea una página con un video de tu elección cómo el ejemplo mostrado en 
-
+[Ejercicio 27](tema1/audio.html)|Crea una página con un fichero de sonido de tu elección cómo el ejemplo mostrado en 
 
 
