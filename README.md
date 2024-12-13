@@ -34,7 +34,7 @@ Ejercicios | Descripción
 [Ejercicio 23](tema1/iframe.html)|Crea una página que incluya una barra de menús: “html | css | javascript | Ajax”. A continuación se mostrará un iFrame en el que se visualizará el apartado correspondiente de la página “uniwebsidad” de cada uno de los enlaces del menú anterior
 [Ejercicio 24](tema1/formulario.html)|Display the following HTML form:
 [Ejercicio 25](tema1/nuevformu.html)|Append new controls to last exercise.
-
+[Ejercicio 26](tema1/video.html)|Crea una página con un video de tu elección cómo el ejemplo mostrado en 
 
 
 
