@@ -30,8 +30,7 @@ Ejercicios | Descripción
 [Ejercicio 19](tema1/posicionflo.html)|Muestra una imagen con posicionamiento flotante a izquierda junto a un párrafo con texto.
 [Ejercicio 20](tema1/imagew3s.html)|Usa las imágenes de w3school incluidas al principio del artículo del enlace siguiente y agrégales texto, tal como aparece en el ejemplo final del artículo sobre posicionamiento flotante.
 [Ejercicio 21](tema1/grupima.html)|Crea un grupo de imágenes en miniatura. Incluye un enlace a la imagen original en cada una de ellas.
-
-
+[Ejercicio 22](tema1/favicon.html)|Crea un favicon e inclúyelo en una página web.
 
 
 
