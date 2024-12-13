@@ -37,10 +37,10 @@ Ejercicios | Descripción
 [Ejercicio 26](tema1/video.html)|Crea una página con un video de tu elección cómo el ejemplo mostrado en 
 [Ejercicio 27](tema1/audio.html)|Crea una página con un fichero de sonido de tu elección cómo el ejemplo mostrado en 
 [Ejercicio 28](tema1/youtube.html)|Crea una página con un video incrustado de Youtube de tu elección cómo el ejemplo mostrado 
-[Ejercicio Set up a website!(parte1)](tema1/iindex.html)|
-[Ejercicio Set up a website!(parte2)](tema1/pagg.html)|
-[Ejercicio Set up a website!(parte3)](tema1/svgg.html)|
-[Ejercicio Set up a website!(parte4)](tema1/ccss.html)|
+[Ejercicio Set up a website!(parte1)](tema1/iindex.html)|Pagina principal
+[Ejercicio Set up a website!(parte2)](tema1/Pagg.html)|Pagina con ejemplos HTML
+[Ejercicio Set up a website!(parte3)](tema1/svgg.html)|Pagina con ejemplos SVG
+[Ejercicio Set up a website!(parte4)](tema1/ccss.html)|Pagina con ejemplos CSS
 
 
 
