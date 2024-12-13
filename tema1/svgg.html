@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG - Web4U</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* Estilo global */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Contenedor principal */
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        /* Títulos */
+        h2 {
+            color: #E53935; /* Rojo */
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Código */
+        pre {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 1.1rem;
+        }
+
+        /* Resultado en el navegador */
+        .example {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SVG - Ejemplos y Tutoriales</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pdf/svg_content.pdf">Descargar PDF</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Introducción a SVG</h2>
+        <p>SVG (Scalable Vector Graphics) es un formato gráfico basado en XML utilizado para definir gráficos vectoriales en la web. SVG permite crear gráficos que pueden ser escalados sin pérdida de calidad, lo que lo convierte en una excelente opción para elementos visuales en páginas web.</p>
+        <p>En esta sección, verás ejemplos de cómo usar SVG para crear gráficos y animaciones.</p>
+    </section>
+
+    <section>
+        <h2>Crear un círculo en SVG</h2>
+        <p>El siguiente ejemplo muestra cómo crear un círculo utilizando SVG. La etiqueta <strong>&lt;circle&gt;</strong> define un círculo con un radio y una posición central.</p>
+        <pre><code>&lt;svg width="200" height="200"&gt;
+    &lt;circle cx="100" cy="100" r="50" stroke="black" stroke-width="2" fill="red" /&gt;
+&lt;/svg&gt;</code></pre>
+        <p>Resultado en el navegador:</p>
+        <div class="example">
+            <svg width="200" height="200">
+                <circle cx="100" cy="100" r="50" stroke="black" stroke-width="2" fill="red" />
+            </svg>
+        </div>
+    </section>
+
+    <section>
+        <h2>Crear un rectángulo en SVG</h2>
+        <p>La etiqueta <strong>&lt;rect&gt;</strong> permite crear un rectángulo con ancho, alto, bordes redondeados y otros atributos. Aquí te mostramos un ejemplo de un rectángulo con un borde redondeado.</p>
+        <pre><code>&lt;svg width="200" height="200"&gt;
+    &lt;rect x="50" y="50" width="150" height="100" rx="15" ry="15" style="fill:blue;stroke:black;stroke-width:2" /&gt;
+&lt;/svg&gt;</code></pre>
+        <p>Resultado en el navegador:</p>
+        <div class="example">
+            <svg width="200" height="200">
+                <rect x="50" y="50" width="150" height="100" rx="15" ry="15" style="fill:blue;stroke:black;stroke-width:2" />
+            </svg>
+        </div>
+    </section>
+
+    <section>
+        <h2>Crear una línea en SVG</h2>
+        <p>Con la etiqueta <strong>&lt;line&gt;</strong>, puedes dibujar líneas entre dos puntos. A continuación te mostramos cómo crear una línea diagonal.</p>
+        <pre><code>&lt;svg width="200" height="200"&gt;
+    &lt;line x1="0" y1="0" x2="200" y2="200" style="stroke:black;stroke-width:2" /&gt;
+&lt;/svg&gt;</code></pre>
+        <p>Resultado en el navegador:</p>
+        <div class="example">
+            <svg width="200" height="200">
+                <line x1="0" y1="0" x2="200" y2="200" style="stroke:black;stroke-width:2" />
+            </svg>
+        </div>
+    </section>
+
+    <section>
+        <h2>Crear un texto en SVG</h2>
+        <p>La etiqueta <strong>&lt;text&gt;</strong> te permite agregar texto a tus gráficos SVG. A continuación se muestra cómo agregar texto con estilo y posición personalizada.</p>
+        <pre><code>&lt;svg width="200" height="200"&gt;
+    &lt;text x="50" y="100" font-family="Verdana" font-size="35" fill="black"&gt;Hola SVG!&lt;/text&gt;
+&lt;/svg&gt;</code></pre>
+        <p>Resultado en el navegador:</p>
+        <div class="example">
+            <svg width="200" height="200">
+                <text x="50" y="100" font-family="Verdana" font-size="35" fill="black">Hola SVG!</text>
+            </svg>
+        </div>
+    </section>
+
+    <section>
+        <h2>Uso de path en SVG</h2>
+        <p>La etiqueta <strong>&lt;path&gt;</strong> permite dibujar formas más complejas usando comandos. A continuación, un ejemplo de cómo dibujar un corazón utilizando un <strong>path</strong>.</p>
+        <pre><code>&lt;svg width="200" height="200"&gt;
+    &lt;path d="M10 80 C 40 10, 65 10, 95 40 S 150 80, 95 120 C 65 140, 40 130, 10 110 Z" fill="red" /&gt;
+&lt;/svg&gt;</code></pre>
+        <p>Resultado en el navegador:</p>
+        <div class="example">
+            <svg width="200" height="200">
+                <path d="M10 80 C 40 10, 65 10, 95 40 S 150 80, 95 120 C 65 140, 40 130, 10 110 Z" fill="red" />
+            </svg>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Web4U</p>
+    </footer>
+</body>
+</html>
+
