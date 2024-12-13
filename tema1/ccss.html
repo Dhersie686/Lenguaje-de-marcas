@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Web4U</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        /* Estilo global */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        /* Encabezado */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Contenedor principal */
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        /* Títulos */
+        h2 {
+            color: #E53935; /* Rojo */
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Código */
+        pre {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 1.1rem;
+        }
+
+        /* Resultado en el navegador */
+        .example {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            margin-top: 10px;
+        }
+
+        .example img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS - Ejemplos y Tutoriales</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pdf/css_content.pdf">Descargar PDF</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Introducción a CSS</h2>
+        <p>CSS (Cascading Style Sheets) es un lenguaje utilizado para describir la presentación de un documento HTML. Permite controlar el diseño, los colores, las fuentes y otros aspectos visuales de una página web.</p>
+        <p>En esta sección, verás ejemplos de cómo utilizar propiedades CSS para dar estilo a los elementos HTML.</p>
+    </section>
+
+    <section>
+        <h2>Propiedad &lt;color&gt; - Cambiar color de fondo</h2>
+        <p>La propiedad <strong>background-color</strong> permite cambiar el color de fondo de un elemento HTML.</p>
+        <pre><code>body {
+    background-color: lightblue;
+}</code></pre>
+        <p>Resultado en el navegador:</p>
+        <div class="example" style="background-color: lightblue; padding: 20px;">
+            Este es un ejemplo con el fondo de color <strong>lightblue</strong>.
+        </div>
+    </section>
+
+    <section>
+        <h2>Propiedad &lt;font-family&gt; - Cambiar la fuente</h2>
+        <p>La propiedad <strong>font-family</strong> se usa para especificar la fuente de texto que se va a utilizar en un elemento HTML.</p>
+        <pre><code>h1 {
+    font-family: 'Arial', sans-serif;
+}</code></pre>
+        <p>Resultado en el navegador:</p>
+        <h1 style="font-family: 'Arial', sans-serif;">Este es un título con la fuente Arial</h1>
+    </section>
+
+    <section>
+        <h2>Propiedad &lt;margin&gt; - Márgenes alrededor de los elementos</h2>
+        <p>La propiedad <strong>margin</strong> se usa para crear espacio alrededor de los elementos. Es útil para separar los elementos entre sí.</p>
+        <pre><code>p {
+    margin: 20px;
+}</code></pre>
+        <p>Resultado en el navegador:</p>
+        <p style="margin: 20px;">Este es un párrafo con un margen de 20 píxeles alrededor.</p>
+    </section>
+
+    <section>
+        <h2>Propiedad &lt;border&gt; - Bordes alrededor de los elementos</h2>
+        <p>La propiedad <strong>border</strong> se utiliza para agregar bordes alrededor de los elementos. Puedes especificar el grosor, el estilo y el color del borde.</p>
+        <pre><code>div {
+    border: 2px solid black;
+}</code></pre>
+        <p>Resultado en el navegador:</p>
+        <div class="example" style="border: 2px solid black; padding: 10px;">
+            Este es un div con un borde de 2 píxeles, sólido y de color negro.
+        </div>
+    </section>
+
+    <section>
+        <h2>Propiedad &lt;display&gt; - Controlar la visualización de los elementos</h2>
+        <p>La propiedad <strong>display</strong> se usa para controlar cómo se muestran los elementos HTML. Un valor común es <strong>inline</strong> o <strong>block</strong>.</p>
+        <pre><code>span {
+    display: inline-block;
+    background-color: yellow;
+    padding: 5px;
+}</code></pre>
+        <p>Resultado en el navegador:</p>
+        <span style="display: inline-block; background-color: yellow; padding: 5px;">
+            Este es un span con display: inline-block.
+        </span>
+    </section>
+
+    <section>
+        <h2>Propiedad &lt;width&gt; y &lt;height&gt; - Controlar el tamaño de los elementos</h2>
+        <p>Las propiedades <strong>width</strong> y <strong>height</strong> permiten definir el ancho y la altura de los elementos.</p>
+        <pre><code>img {
+    width: 100px;
+    height: auto;
+}</code></pre>
+        <p>Resultado en el navegador:</p>
+        <img src="https://via.placeholder.com/150" style="width: 100px; height: auto;" alt="Imagen de ejemplo">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Web4U</p>
+    </footer>
+</body>
+</html>
+
