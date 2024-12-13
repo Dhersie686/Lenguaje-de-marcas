@@ -28,3 +28,12 @@ Ejercicios | Descripción
 [Ejercicio 17](tema1/tablasceldas.html)|Display the following table. Use heading cells where necessary and all attributes you need.
 [Ejercicio 18](tema1/tablasceldas.html)
 [Ejercicio 19](tema1/posicionflo.html)|Muestra una imagen con posicionamiento flotante a izquierda junto a un párrafo con texto.
+[Ejercicio 20](tema1/imagew3s.html)|Usa las imágenes de w3school incluidas al principio del artículo del enlace siguiente y agrégales texto, tal como aparece en el ejemplo final del artículo sobre posicionamiento flotante.
+
+
+
+
+
+
+
+
