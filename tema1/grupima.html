@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniaturas de Imágenes</title>
+    <style>
+        .thumbnail {
+            float: left;
+            width: 150px;
+            margin: 10px;
+            border: 2px solid #ddd;
+            padding: 5px;
+            text-align: center;
+            background-color: #f9f9f9;
+            transition: 0.3s;
+        }
+
+        .thumbnail img {
+            width: 100%;
+            height: auto;
+        }
+
+        .thumbnail:hover {
+            border-color: #555;
+            background-color: #eee;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <h1>Miniaturas de Imágenes</h1>
+
+    <a href="https://www.w3schools.com/html/pic_trulli.jpg" target="_blank" class="thumbnail">
+        <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="Trulli">
+        <p>Trulli</p>
+    </a>
+
+    <a href="https://www.w3schools.com/html/img_girl.jpg" target="_blank" class="thumbnail">
+        <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Chica">
+        <p>Chica</p>
+    </a>
+
+    <a href="https://www.w3schools.com/html/img_chania.jpg" target="_blank" class="thumbnail">
+        <img src="https://www.w3schools.com/html/img_chania.jpg" alt="Chania">
+        <p>Chania</p>
+    </a>
+
+    <div class="clear"></div>
+</body>
+</html>
